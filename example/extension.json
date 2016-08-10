@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en" : "Example Extension"
+  },
+  "description": {
+    "en": "Example Extension"
+  },
+  "url": "www.example.com/extension",
+  "documentaion_url": "www.example.com/extension",
+  "active": false
+}
