@@ -1,12 +1,14 @@
 {
   "name": {
-    "en" : "Example Extension"
+    "en" : "Location Extension"
   },
   "description": {
-    "en": "Example Extension"
+    "en": "Allow the point of delivery for a given item or the site of works to be completed to be indicated in both the tender, award and contract stage."
   },
-  "url": "https://raw.githubusercontent.com/Bjwebb/proposed_location_extension/master/tension",
+  "url": "https://raw.githubusercontent.com/Bjwebb/proposed_location_extension/master/",
   "documentaion_url": "www.example.com/extension",
   "active": false,
-  "core": true
+  "core": true,
+  "category": "item",
+  "slug": "location"
 }
