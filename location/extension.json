@@ -1,0 +1,12 @@
+{
+  "name": {
+    "en" : "Example Extension"
+  },
+  "description": {
+    "en": "Example Extension"
+  },
+  "url": "https://raw.githubusercontent.com/Bjwebb/proposed_location_extension/master/tension",
+  "documentaion_url": "www.example.com/extension",
+  "active": false,
+  "core": true
+}
