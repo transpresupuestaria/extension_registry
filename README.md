@@ -1,6 +1,6 @@
 # Extension Repository 
 
-The place where non core extensions can be registered in order to appear appear in the docs.
+The place where extensions can be registered in order to appear appear in the docs.
 
 Each extension lives in its own directory in this repo and must contain an extension.json file
 
