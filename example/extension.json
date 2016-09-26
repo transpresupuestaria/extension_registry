@@ -1,9 +1,11 @@
 {
   "name": {
-    "en" : "Example Extension"
+    "en" : "Example Extension",
+    "es" : "Ejemplo de Extensión"
   },
   "description": {
-    "en": "Example Extension"
+    "en": "Example Extension",
+    "es": "Ejemplo de Extensión"
   },
   "url": "http://www.example.com/extension_url",
   "documentaion_url": "http://www.example.com/extension_documentation_url",
