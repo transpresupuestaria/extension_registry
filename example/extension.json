@@ -5,7 +5,7 @@
   "description": {
     "en": "Example Extension"
   },
-  "url": "www.example.com/extension",
-  "documentaion_url": "www.example.com/extension",
+  "url": "http://www.example.com/extension_url",
+  "documentaion_url": "http://www.example.com/extension_documentation_url",
   "active": false
 }
