@@ -17,7 +17,7 @@ A category field says which part of the docs the extension appears in.
 The core field says if it is part of the core standard and has documentation written in the main docs.
 
 The slug field is only useful for core extensions, it says where the extension docs live in the main docs. i.e a slug of location will mean there will be docs at 
-http://standard.open-contracting.org/<version>/<lang>/extensions/location.
+http://standard.open-contracting.org/*version*/*lang*/extensions/location.
 
 Here is an example extension.json
 
