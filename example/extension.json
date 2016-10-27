@@ -8,7 +8,7 @@
     "es": "Ejemplo de Extensión"
   },
   "url": "http://www.example.com/extension_url",
-  "documentaion_url": "http://www.example.com/extension_documentation_url",
+  "documentation_url": "http://www.example.com/extension_documentation_url",
   "active": false,
   "category": "item"
 }
