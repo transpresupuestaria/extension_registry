@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en" : "Budget and projects"
+  },
+  "description": {
+    "en": "This extension separates planning information on budgets and projects, in line with a proposal for OCDS upgrades, and to support the PPP extension."
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/",
+  "documentation_url": "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/",
+  "active": false,
+  "core": false,
+  "category": "ppp",
+  "slug": "budget_project"
+}
