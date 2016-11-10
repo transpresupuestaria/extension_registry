@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en" : "Budget breakdown"
+  },
+  "description": {
+    "en": "For providing a detailed budget breakdown."
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_budget_breakdown_extension/master/",
+  "documentation_url": "https://github.com/open-contracting/standard/issues/377",
+  "active": false,
+  "core": false,
+  "category": "ppp, 1.1",
+  "slug": "budget"
+}
