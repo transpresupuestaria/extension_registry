@@ -1,0 +1,14 @@
+language: python
+
+python:
+  - "3.4"
+
+script:
+  - "python compile.py"
+  - "mkdir build; mv extensions.* build"
+deploy:
+  skip_cleanup: true # don't remove stuff we've built
+  provider: script
+  script: curl https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-extension_registry-deploy.sh | bash -
+  on:
+    all_branches: true
