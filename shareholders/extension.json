@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en" : "Shareholders"
+  },
+  "description": {
+    "en": "Draft shareholders extension for ppp extension"
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds-shareholders-extension/master/",
+  "documentation_url": "https://github.com/open-contracting/ocds-shareholders-extension",
+  "active": false,
+  "core": true,
+  "category": "ppp",
+  "slug": "shareholders"
+}
