@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en" : "Equity Transfer Caps"
+  },
+  "description": {
+    "en": "Developed for use in the PPP extension to OCDS"
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds-equityTransferCaps-extension/master/",
+  "documentation_url": "https://github.com/open-contracting/ocds-equityTransferCaps-extension",
+  "active": false,
+  "core": true,
+  "category": "ppp",
+  "slug": "equity_transfer_caps"
+}
