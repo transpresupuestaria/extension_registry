@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en" : "Process titles"
+  },
+  "description": {
+    "en": "This extension exists to stage the proposal from standard issue 342 that each contracting process should have a top level title and description field. "
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_upgrade_342/master/",
+  "documentation_url": "https://github.com/open-contracting/ocds_upgrade_342/",
+  "active": false,
+  "core": true,
+  "category": "1.1",
+  "slug": "titles"
+}
