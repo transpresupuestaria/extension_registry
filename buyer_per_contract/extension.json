@@ -1,0 +1,14 @@
+{
+  "name": {
+    "en" : "Buyer per contract"
+  },
+  "description": {
+    "en": "For specifying buyer at contract level"
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_upgrade_382a/master/",
+  "documentation_url": "https://github.com/open-contracting/ocds_upgrade_382a",
+  "active": false,
+  "core": false,
+  "category": "1.1",
+  "slug": "contract"
+}
