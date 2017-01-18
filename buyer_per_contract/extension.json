@@ -1,14 +1,14 @@
 {
   "name": {
-    "en" : "Buyer per contract"
+    "en" : "Multiple buyers - contract level"
   },
   "description": {
-    "en": "For specifying buyer at contract level"
+    "en": "In some cases, a single contracting process involves multiple buyers (for example, a framework that different organisations can buy from). In these cases, the multiple buyers extension can be used to specify a distinct buyer for each contract."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_upgrade_382a/master/",
-  "documentation_url": "https://github.com/open-contracting/ocds_upgrade_382a",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_multiple_buyers_extension/master/",
+  "documentation_url": "https://github.com/open-contracting/ocds_multiple_buyers_extension",
   "active": false,
-  "core": false,
+  "core": true,
   "category": "1.1",
   "slug": "contract"
 }
