@@ -20,7 +20,7 @@ def main():
             os.mkdir(args[0])
             reg = {
                 "name":{"en":ext['name']},
-                "description":{"en":['description']},
+                "description":{"en":ext['description']},
                 "url":args[1].replace("github.com","raw.githubusercontent.com")+"/master/",
                 "documentation_url":args[1] + "/blob/master/README.md",
                 "active":True,
