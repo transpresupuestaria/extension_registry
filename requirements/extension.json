@@ -8,7 +8,7 @@
   "url": "https://raw.githubusercontent.com/duncandewhurst/ocds-requirements-extension/master/",
   "documentation_url": "https://github.com/duncandewhurst/ocds-requirements-extension",
   "active": false,
-  "core": true,
-  "category": "1.1",
+  "core": false,
+  "category": "tender",
   "slug": "requirements"
 }
