@@ -4,7 +4,7 @@
     "name": {
         "en": "Contract suppliers"
     }, 
-    "core": true, 
+    "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_suppliers_extension/master/", 
     "active": true, 
     "slug": "contract_suppliers", 
