@@ -4,7 +4,7 @@
     "name": {
         "en": "Contract extensions via supplementary contract: extendsContractID"
     }, 
-    "core": true, 
+    "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_extendsContractID_extension/master/", 
     "active": true, 
     "slug": "extendsContractID", 
