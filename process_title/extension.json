@@ -1,11 +1,11 @@
 {
     "category": "release", 
-    "documentation_url": "https://github.com/open-contracting/ocds_process_title_extension/blob/master/README.md", 
+    "documentation_url": "https://github.com/open-contracting/ocds_process_title_extension/blob/v1.1/README.md", 
     "name": {
         "en": "Process level title and description"
     }, 
     "core": true, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/v1.1/", 
     "active": true, 
     "slug": "process_title", 
     "description": {
