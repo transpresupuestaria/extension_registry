@@ -7,7 +7,7 @@
   },
   "url": "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/",
   "documentation_url": "https://raw.githubusercontent.com/open-contracting/ocds_budget_projects_extension/master/",
-  "active": false,
+  "active": true,
   "core": false,
   "category": "ppp",
   "slug": "budget_project"

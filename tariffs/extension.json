@@ -7,7 +7,7 @@
   },
   "url": "https://raw.githubusercontent.com/open-contracting/ocds_tariffs_extension/master/",
   "documentation_url": "https://github.com/open-contracting/ocds_tariffs_extension/",
-  "active": false,
+  "active": true,
   "core": false,
   "category": "ppp",
   "slug": "tariffs"

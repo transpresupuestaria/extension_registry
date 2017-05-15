@@ -4,7 +4,7 @@
     "name": {
         "en": "Process level title and description"
     }, 
-    "core": true, 
+    "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/master/", 
     "active": true, 
     "slug": "process_title", 

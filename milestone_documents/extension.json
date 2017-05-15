@@ -4,7 +4,7 @@
     "name": {
         "en": "Milestone documents"
     }, 
-    "core": true, 
+    "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_milestone_documents_extension/master/", 
     "active": true, 
     "slug": "milestone_documents", 
