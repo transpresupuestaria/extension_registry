@@ -8,7 +8,7 @@
   "url": "https://raw.githubusercontent.com/open-contracting/ocds_charges_extension/v1.1/",
   "documentation_url": "https://github.com/open-contracting/ocds_charges_extension",
   "active": false,
-  "core": true,
+  "core": false,
   "category": "ppp",
   "slug": "charges"
 }
