@@ -1,6 +1,6 @@
 {
     "category": "release", 
-    "documentation_url": "https://github.com/open-contracting/ocds_process_title_extension/blob/v1.1/README.md", 
+    "documentation_url": "http://standard.open-contracting.org/1.1/en/extensions/process_title/", 
     "name": {
         "en": "Process level title and description"
     }, 

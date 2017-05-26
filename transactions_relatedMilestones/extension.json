@@ -5,10 +5,10 @@
   "description": {
     "en": "Adds a relatedImplementationMilestone property to the transactions object so that disbursements can be linked with their associated milestone."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_transactions_relatedMilestone_extension/v1.1/",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_transactions_relatedMilestone_extension/master/",
   "documentation_url": "https://github.com/open-contracting/ocds_transactions_relatedMilestone_extension",
   "active": false,
-  "core": true,
+  "core": false,
   "category": "ppp",
   "slug": "transaction_milestones"
 }

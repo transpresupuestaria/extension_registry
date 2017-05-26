@@ -13,6 +13,7 @@ def main():
 
     if args[1]:
         r = requests.get(args[1].replace("github.com","raw.githubusercontent.com")+"/master/extension.json")
+        print(r.url)
         ext = r.json()
         if os.path.isdir(args[0]):
             print("Extension already exists. Exiting.")

@@ -8,7 +8,7 @@
   "url": "https://raw.githubusercontent.com/open-contracting/public-private-partnerships/v1.1/",
   "documentation_url": "http://standard.open-contracting.org/ppp-extension/",
   "active": false,
-  "core": true,
+  "core": false,
   "category": "ppp",
   "slug": "ppp"
 }

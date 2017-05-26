@@ -1,6 +1,6 @@
 {
     "category": "tender", 
-    "documentation_url": "https://github.com/open-contracting/ocds_participationFee_extension/blob/v1.1/README.md", 
+    "documentation_url": "http://standard.open-contracting.org/1.1/en/extensions/participation_fee/", 
     "name": {
         "en": "Participation Fees"
     }, 

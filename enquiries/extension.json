@@ -1,6 +1,6 @@
 {
     "category": "tender", 
-    "documentation_url": "https://github.com/open-contracting/ocds_enquiry_extension/blob/v1.1/README.md", 
+    "documentation_url": "http://standard.open-contracting.org/1.1/en/extensions/enquiries/", 
     "name": {
         "en": "Enquiries"
     }, 
