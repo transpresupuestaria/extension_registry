@@ -1,6 +1,6 @@
 {
     "category": "bids", 
-    "documentation_url": "standard.open-contracting.org/1.1/en/extensions/bids/", 
+    "documentation_url": "http://standard.open-contracting.org/1.1/en/extensions/bids/", 
     "name": {
         "en": "Bid statistics and details"
     }, 
