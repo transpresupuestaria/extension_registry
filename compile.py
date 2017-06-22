@@ -1,4 +1,4 @@
-import os 
+import os
 import glob
 import datetime
 import json
@@ -11,9 +11,9 @@ gathered_json = {
 }
 
 
-for directory in glob.glob(current_path+"/*"):
+for directory in glob.glob(current_path + "/*"):
     if os.path.isdir(directory):
-        extension_json_file = os.path.join(directory, "extension.json")
+        extension_json_file = os.path.join(directory, "entry.json")
         with open(extension_json_file) as extension_json:
             gathered_json["extensions"].append(json.load(extension_json))
 
@@ -27,5 +27,3 @@ with open(extensions_json_path, "w+") as extensions_json:
 
 with open(extensions_js_path, "w+") as extensions_json:
     extensions_json.write("extensions_callback(" + full_json + ")")
-
-
