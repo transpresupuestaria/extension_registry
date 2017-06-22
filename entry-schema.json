@@ -30,6 +30,16 @@
       "description": "Whether the extension is a core extension documented in the main docs.",
       "type": "boolean"
     },
+    "dependencies": {
+      "title": "Dependencies",
+      "description": "Extensions this extension depends on.",
+      "type": "array",
+      "items":{
+        "type": "string",
+        "format": "uri",
+        "pattern": "^.+/extension.json"
+      }
+    },
     "description": {
       "title": "Description",
       "description": "Description of the extensions as an object with keys being language codes (ISO 639-1) and values the description in that language.",
