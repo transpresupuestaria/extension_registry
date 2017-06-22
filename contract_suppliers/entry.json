@@ -1,11 +1,13 @@
 {
     "category": "contract", 
-    "documentation_url": "https://github.com/open-contracting/ocds_contract_suppliers_extension/blob/master/README.md", 
+    "documentationUrl": {
+        "en": "https://github.com/open-contracting/ocds_contract_suppliers_extension/blob/master/README.md"
+    },
     "name": {
         "en": "Contract suppliers"
     }, 
     "core": false, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_suppliers_extension/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_suppliers_extension/master/extension.json", 
     "active": true, 
     "slug": "contract_suppliers", 
     "description": {

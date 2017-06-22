@@ -1,11 +1,13 @@
 {
     "category": "milestones", 
-    "documentation_url": "https://github.com/open-contracting/ocds_milestone_documents_extension/blob/master/README.md", 
+    "documentationUrl": {
+        "en": "https://github.com/open-contracting/ocds_milestone_documents_extension/blob/master/README.md"
+    },
     "name": {
         "en": "Milestone documents"
     }, 
     "core": false, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_milestone_documents_extension/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_milestone_documents_extension/master/extension.json",
     "active": true, 
     "slug": "milestone_documents", 
     "description": {

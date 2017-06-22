@@ -1,11 +1,13 @@
 {
     "category": "contract", 
-    "documentation_url": "https://github.com/open-contracting/ocds_extendsContractID_extension/blob/master/README.md", 
+    "documentationUrl": {
+        "en": "https://github.com/open-contracting/ocds_extendsContractID_extension/blob/master/README.md"
+    },
     "name": {
         "en": "Contract extensions via supplementary contract: extendsContractID"
     }, 
     "core": false, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_extendsContractID_extension/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_extendsContractID_extension/master/extension.json", 
     "active": true, 
     "slug": "extendsContractID", 
     "description": {

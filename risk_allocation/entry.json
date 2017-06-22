@@ -1,0 +1,16 @@
+{
+  "name": {
+    "en" : "Risk Allocation"
+  },
+  "description": {
+    "en": "Draft risk allocation extension for ppp extension"
+  },
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds-riskAllocation-extension/master/extension.json",
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting/ocds-riskAllocation-extension"
+  },
+  "active": true,
+  "core": false,
+  "category": "ppp",
+  "slug": "risk_allocation"
+}

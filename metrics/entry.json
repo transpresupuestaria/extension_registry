@@ -5,8 +5,10 @@
   "description": {
     "en": "The metrics extension supports publication of forecasts (planning stage), targets (tender stage), agreed performance targets (award and contract stage) and results (implementation stage).."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_metrics_extension/master/",
-  "documentation_url": "https://github.com/open-contracting/ocds_metrics_extension",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_metrics_extension/master/extension.json",
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting/ocds_metrics_extension"
+  },
   "active": true,
   "core": false,
   "category": "ppp",

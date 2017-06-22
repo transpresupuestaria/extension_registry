@@ -5,8 +5,10 @@
   "description": {
     "en": "The requirements extension is based on the EU's Core Criterion and Core Evidence Vocabulary (CCCEV) model for communicating criteria and responses. The extension is designed to allow procuring entities or buyers to express criteria, relating to either items being procured or bidders themselves, as structured data."
   },
-  "url": "https://raw.githubusercontent.com/duncandewhurst/ocds-requirements-extension/master/",
-  "documentation_url": "https://github.com/duncandewhurst/ocds-requirements-extension",
+  "url": "https://raw.githubusercontent.com/duncandewhurst/ocds-requirements-extension/master/extension.json",
+  "documentationUrl": {
+    "en": "https://github.com/duncandewhurst/ocds-requirements-extension"
+  },
   "active": true,
   "core": false,
   "category": "tender",
