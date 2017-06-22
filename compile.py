@@ -3,6 +3,8 @@ import glob
 import datetime
 import json
 
+from jsonschema.validators import Draft4Validator as validator
+
 current_path = os.path.dirname(os.path.realpath(__file__))
 
 gathered_json = {
@@ -10,12 +12,19 @@ gathered_json = {
     "extensions": []
 }
 
+with open('entry-schema.json') as fp:
+    entry_validator = validator(json.load(fp))
 
 for directory in glob.glob(current_path + "/*"):
     if os.path.isdir(directory):
-        extension_json_file = os.path.join(directory, "entry.json")
-        with open(extension_json_file) as extension_json:
-            gathered_json["extensions"].append(json.load(extension_json))
+        entry_json_file = os.path.join(directory, "entry.json")
+
+        with open(entry_json_file) as fp:
+            entry_obj = json.load(fp)
+            if entry_validator.is_valid(entry_obj):
+                gathered_json["extensions"].append(entry_obj)
+            else:
+                print('Skipping extension {}: entry.json is not valid'.format(directory))
 
 full_json = json.dumps(gathered_json)
 
