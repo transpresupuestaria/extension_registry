@@ -37,7 +37,7 @@
       "items":{
         "type": "string",
         "format": "uri",
-        "pattern": "^.+/extension.json"
+        "pattern": "^.+/extension\\.json"
       }
     },
     "description": {
@@ -87,7 +87,7 @@
       "description": "Location of extension.json file, typically within a github repository containing the extending schema files",
       "type": "string",
       "format": "uri",
-      "pattern": "^.+/extension.json"
+      "pattern": "^.+/extension\\.json"
     }
   }
 }
