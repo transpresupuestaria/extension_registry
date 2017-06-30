@@ -1,4 +1,4 @@
-{
+[{
     "category": "tender", 
     "documentationUrl": {
         "en": "https://github.com/open-contracting/ocds_enquiry_extension/blob/master/README.md"
@@ -13,4 +13,4 @@
     "description": {
         "en": "The enquiries extension can be used to record questions raised during a contracting process, and the answers provided."
     }
-}
+}]

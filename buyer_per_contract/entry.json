@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Multiple buyers - contract level"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "1.1",
   "slug": "contract"
-}
+}]

@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Shareholders"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "ppp",
   "slug": "shareholders"
-}
+}]

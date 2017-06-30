@@ -1,4 +1,4 @@
-{
+[{
     "category": "partyDetail", 
     "documentationUrl": {
         "en": "https://github.com/open-contracting/ocds_partyDetails_scale_extension/blob/master/README.md"
@@ -13,4 +13,4 @@
     "description": {
         "en": "For classifying organisations as micro, sme or large."
     }
-}
+}]

@@ -1,4 +1,4 @@
-{
+[{
     "category": "release", 
     "documentationUrl": {
         "en": "https://github.com/open-contracting/ocds_process_title_extension/blob/master/README.md"
@@ -13,4 +13,4 @@
     "description": {
         "en": "For providing overall process titles and descriptions, often to give a free-text summary of the contracting process as a whole."
     }
-}
+}]

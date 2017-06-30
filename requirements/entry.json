@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Requirements"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "tender",
   "slug": "requirements"
-}
+}]

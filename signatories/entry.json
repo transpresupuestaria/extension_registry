@@ -1,4 +1,4 @@
-{
+[{
     "category": "contract", 
     "documentationUrl": {
         "en": "https://github.com/open-contracting/ocds_contract_signatories_extension/blob/master/README.md"
@@ -13,4 +13,4 @@
     "description": {
         "en": "Adds an array of organizationReferences to the contract section OCDS to support explicit declaration of the signatories for a contract."
     }
-}
+}]

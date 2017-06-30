@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Budget and projects"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "ppp",
   "slug": "budget_project"
-}
+}]

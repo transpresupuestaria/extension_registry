@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Risk Allocation"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "ppp",
   "slug": "risk_allocation"
-}
+}]

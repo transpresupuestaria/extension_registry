@@ -1,4 +1,4 @@
-{
+[{
     "category": "parties", 
     "documentationUrl": {
         "en": "https://github.com/open-contracting/ocds_additionalContactPoints_extension/blob/master/README.md"
@@ -13,4 +13,4 @@
     "description": {
         "en": "For including extra contact points on each organization. Particularly useful when each contact point deals only in a particular language or group of languages."
     }
-}
+}]

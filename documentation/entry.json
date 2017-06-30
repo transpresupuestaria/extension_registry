@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Documentation"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "ppp",
   "slug": "documentation_details"
-}
+}]

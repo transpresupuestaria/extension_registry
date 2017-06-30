@@ -1,4 +1,4 @@
-{
+[{
     "category": "tender", 
     "documentationUrl": {
         "en": "https://github.com/open-contracting/ocds_participationFee_extension/blob/master/README.md"
@@ -13,4 +13,4 @@
     "description": {
         "en": "Where a tender process involves payment of fees to access documents, submit a proposal, or be awarded a contract, this extension can be used to provide fee details."
     }
-}
+}]

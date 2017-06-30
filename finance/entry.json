@@ -1,4 +1,4 @@
-{
+[{
   "name": {
     "en" : "Finance"
   },
@@ -13,4 +13,4 @@
   "core": false,
   "category": "ppp",
   "slug": "finance"
-}
+}]

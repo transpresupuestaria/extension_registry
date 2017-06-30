@@ -8,7 +8,9 @@ _entry.json_ must validate against the schema before being included in the regis
 
 ## entry.json
 
-### required fields
+A list of entries for this extension. Multiple versions of the same extensions can be registered, the first being the default version.
+
+### required fields for each entry.
 
 * active: a boolean declaring the extension active or inactive status.
 * category: part of the docs the extensions appears in.
@@ -21,14 +23,16 @@ _entry.json_ must validate against the schema before being included in the regis
 ### optional fields
 
 * dependencies; a list of other extensions that this extension depends on.
+* compatibility; a list of versions of OCDS schema versions this extension is valid against.
+* version; an optional semver of the extension.
 * slug: it indicates where the extension documentation lives in the standard docs, i.e a slug of location will mean there will be docs at 
 _h&#8203;ttp://standard.open-contracting.org/*version*/*lang*/extensions/location_ ── applies to core extensions only.
 
 
-Here is an example extension.json
+Here is an example entry.json
 
 ```json
-{
+[{
   "name": {
     "en" : "Example Extension",
     "es" : "Ejemplo de Extensión"
@@ -47,7 +51,7 @@ Here is an example extension.json
   "active": true,
   "slug": "example",
   "dependencies": ["path/to/extension1/extension.json","path/to/extension2/extension.json" ]
-}
+}]
 ```
 
 ## Compile 
