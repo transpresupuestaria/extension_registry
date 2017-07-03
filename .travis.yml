@@ -3,9 +3,13 @@ language: python
 python:
   - "3.4"
 
+install:
+  - "pip install jsonschema"
+
 script:
   - "python compile.py"
   - "mkdir build; mv extensions.* build"
+
 deploy:
   skip_cleanup: true # don't remove stuff we've built
   provider: script

@@ -1,14 +1,16 @@
-{
+[{
     "category": "implementation", 
-    "documentation_url": "https://github.com/open-contracting/ocds_performance_failures/blob/master/README.md", 
+    "documentationUrl": {
+        "en": "https://github.com/open-contracting/ocds_performance_failures/blob/master/README.md"
+    },
     "name": {
         "en": "Performance Failures Extension"
     }, 
     "core": false, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_performance_failures/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_performance_failures/master/extension.json", 
     "active": true, 
     "slug": "performance_failures", 
     "description": {
         "en": "This extension introduces a performance failures array to the implementation section of OCDS, based on the performance failures reporting table defined in the framework for disclosure in PPPs."
     }
-}
+}]

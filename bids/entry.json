@@ -1,14 +1,16 @@
-{
+[{
     "category": "bids", 
-    "documentation_url": "https://github.com/open-contracting/ocds_bid_extension/blob/master/README.md", 
+    "documentationUrl": {
+        "en": "https://github.com/open-contracting/ocds_bid_extension/blob/master/README.md"
+    },
     "name": {
         "en": "Bid statistics and details"
     }, 
     "core": true, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/master/extension.json", 
     "active": true, 
     "slug": "bids", 
     "description": {
         "en": "Allowing bid statistics, and detailed bid information to be represented."
     }
-}
+}]
