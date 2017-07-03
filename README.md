@@ -22,10 +22,10 @@ A list of entries for this extension. Multiple versions of the same extensions c
 
 ### optional fields
 
-* dependencies; a list of other extensions that this extension depends on.
-* compatibility; a list of versions of OCDS schema versions this extension is valid against.
-* version; an optional semver of the extension.
-* slug: it indicates where the extension documentation lives in the standard docs, i.e a slug of location will mean there will be docs at 
+* dependencies: a list of other extensions that this extension depends on.
+* compatibility: a list of versions of OCDS schema versions this extension is valid against.
+* version: an optional semver of the extension.
+* slug: indicates where the extension documentation lives in the standard docs, i.e. a "location" slug means the docs are at
 _h&#8203;ttp://standard.open-contracting.org/*version*/*lang*/extensions/location_ ── applies to core extensions only.
 
 

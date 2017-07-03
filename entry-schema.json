@@ -40,7 +40,7 @@
           "type": "string"
         }
       },
-      "compatability": {
+      "compatibility": {
         "title": "Compatibility",
         "description": "Versions of the OCDS standard this extension works against",
         "type": "array",
