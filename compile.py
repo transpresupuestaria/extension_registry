@@ -1,3 +1,7 @@
+"""
+Validates all entry.json files and gathers them into extensions.js and extensions.json files.
+"""
+
 import os
 import glob
 import datetime
