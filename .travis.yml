@@ -4,9 +4,10 @@ python:
   - "3.4"
 
 install:
-  - "pip install jsonschema"
+  - "pip install flake8 jsonschema"
 
 script:
+  - "flake8"
   - "python compile.py"
   - "mkdir build; mv extensions.* build"
 

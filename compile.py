@@ -24,12 +24,12 @@ for directory in glob.glob(current_path + "/*"):
         with open(entry_json_file) as fp:
             entry_obj = json.load(fp)
             if entry_validator.is_valid(entry_obj):
-                
-                ## This loop is temporary only so docs work while transistioning onto new format
+
+                # This loop is temporary only so docs work while transistioning onto new format
                 for item in entry_obj:
                     item["documentation_url"] = item["documentationUrl"]["en"]
                     item["url"] = item["url"][:-14]
-                ## endloop
+                # endloop
 
                 gathered_json["extensions"].append(entry_obj[0])
             else:
