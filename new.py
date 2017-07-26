@@ -1,4 +1,7 @@
-# A convenience script for creating entries here from their extension.json files
+"""
+A convenience script for creating entries here from their extension.json files
+"""
+
 import requests
 import optparse
 import json
