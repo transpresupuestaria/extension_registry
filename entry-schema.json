@@ -1,5 +1,5 @@
 {
-  "id": "http://example.com",
+  "id": "https://raw.githubusercontent.com/open-contracting/extension_registry/master/entry-schema.json",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "Schema for an entry in the Open Contracting Extension Registry",
   "description": "Schema for an entry.json file pointing to the location of the extension.",
@@ -50,7 +50,7 @@
       },
       "version": {
         "title": "Version",
-        "description": "Version of the extension. This may be completely seperate from the version of the OCDS standard this extension is compatable with (use compatability for this case).",
+        "description": "Version of the extension. This may be completely separate from the version of the OCDS standard this extension is compatible with (use compatibility for that case).",
         "type": "string"
       },
       "description": {
