@@ -5,7 +5,7 @@
   "description": {
     "en": "Extending the documents block with page numbers, access details and authorship information"
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_documentation_extension/master/",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_documentation_extension/ppp/",
   "documentation_url": "https://github.com/open-contracting/ocds_documentation_extension/",
   "active": false,
   "core": false,

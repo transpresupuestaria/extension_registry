@@ -5,7 +5,7 @@
   "description": {
     "en": "For providing information on a pre-qualification stage."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_qualification_extension/master/",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_qualification_extension/ppp/",
   "documentation_url": "https://github.com/open-contracting/public-private-partnerships/issues/36",
   "active": false,
   "core": false,

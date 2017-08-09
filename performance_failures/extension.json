@@ -5,7 +5,7 @@
         "en": "Performance Failures Extension"
     }, 
     "core": false, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_performance_failures/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_performance_failures/ppp/", 
     "active": true, 
     "slug": "performance_failures", 
     "description": {

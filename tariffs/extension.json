@@ -5,7 +5,7 @@
   "description": {
     "en": "Capturing details of tariffs, tolls and user fees associated with a contract."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_tariffs_extension/master/",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_tariffs_extension/ppp/",
   "documentation_url": "https://github.com/open-contracting/ocds_tariffs_extension/",
   "active": false,
   "core": false,

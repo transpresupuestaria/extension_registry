@@ -5,7 +5,7 @@
         "en": "Signatories"
     }, 
     "core": false, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_signatories_extension/master/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_signatories_extension/ppp/", 
     "active": true, 
     "slug": "signatories", 
     "description": {

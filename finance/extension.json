@@ -5,7 +5,7 @@
   "description": {
     "en": "Capturing details of the finance arranged for a contract, including loans, grants and other finance sources."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_finance_extension/master/",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_finance_extension/ppp/",
   "documentation_url": "https://github.com/open-contracting/ocds_finance_extension",
   "active": false,
   "core": false,
