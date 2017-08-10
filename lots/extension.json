@@ -5,7 +5,7 @@
         "en": "Lots"
     }, 
     "core": true, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_lots_extension/v1.1/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_lots_extension/v1.1.1/", 
     "active": true, 
     "slug": "lots", 
     "description": {

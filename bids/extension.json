@@ -5,7 +5,7 @@
         "en": "Bid statistics and details"
     }, 
     "core": true, 
-    "url": "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/v1.1/", 
+    "url": "https://raw.githubusercontent.com/open-contracting/ocds_bid_extension/v1.1.1/", 
     "active": true, 
     "slug": "bids", 
     "description": {

@@ -5,7 +5,7 @@
   "description": {
     "en": "Allow the point of delivery for a given item or the site of works to be completed to be indicated in both the tender, award and contract stage."
   },
-  "url": "https://raw.githubusercontent.com/open-contracting/ocds_location_extension/v1.1/",
+  "url": "https://raw.githubusercontent.com/open-contracting/ocds_location_extension/v1.1.1/",
   "documentation_url": "http://standard.open-contracting.org/1.1/en/extensions/location/",
   "active": false,
   "core": true,
