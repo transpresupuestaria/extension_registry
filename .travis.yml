@@ -1,19 +1,21 @@
+sudo: false
 language: python
-
+cache: pip
 python:
-  - "3.4"
-
-install:
-  - "pip install flake8 jsonschema"
-
-script:
-  - "flake8"
-  - "python compile.py"
-  - "mkdir build; mv extensions.* build"
-
+  - "3.6"
+addons:
+  apt:
+    packages:
+    - lftp
 deploy:
   skip_cleanup: true # don't remove stuff we've built
   provider: script
   script: curl https://raw.githubusercontent.com/OpenDataServices/opendataservices-deploy/master/open-contracting-extension_registry-deploy.sh | bash -
   on:
     all_branches: true
+install:
+  - "pip install flake8 jsonschema"
+script:
+  - "flake8"
+  - "python compile.py"
+  - "mkdir build; mv extensions.* build"
