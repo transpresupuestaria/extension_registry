@@ -56,9 +56,11 @@ Here is an example entry.json
 
 ## Compile 
 
-In order for the extension to be picked up by the docs the following command needs to be run after a new extension or a change has been made.
+In order for the extension to be picked up by the docs the following command needs to be run after a new extension or a change has been made:
 
 `python compile.py`
+
+The _compile.py_ script will generate two non version-controlled files, **_extensions.json_** and **_extensions.js_**, which are the reference files that OCDS needs to build the documentation on extensions.
 
 ## Dependencies
 
