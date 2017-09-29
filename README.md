@@ -20,7 +20,7 @@ A list of entries for this extension. Multiple versions of the same extensions c
 * name: name of the extension, an object mapping language codes to the name of the extension in the language
 * url: URL of the extension repository, pointing at an _extension.json_ file.
 
-### Pptional fields
+### Optional fields
 
 * dependencies: a list of other extensions that this extension depends on.
 * compatibility: a list of versions of OCDS schema versions this extension is valid against.
