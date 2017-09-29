@@ -3,6 +3,8 @@ language: python
 cache: pip
 python:
   - "3.6"
+env:
+  - BASEDIR="https://raw.githubusercontent.com/open-contracting/standard-maintenance-scripts/master"
 addons:
   apt:
     packages:
@@ -14,8 +16,9 @@ deploy:
   on:
     all_branches: true
 install:
-  - "pip install flake8 jsonschema"
+  - curl -s -S $BASEDIR/tests/install.sh | bash -
+  - pip install flake8 jsonschema
 script:
-  - "flake8"
-  - "python compile.py"
-  - "mkdir build; mv extensions.* build"
+  - curl -s -S $BASEDIR/tests/script.sh | bash -
+  - python compile.py
+  - mkdir build; mv extensions.* build

@@ -1,8 +1,8 @@
-# Extension Repository 
+# Extension Repository
 
 The place where extensions can be registered in order to appear in the docs.
 
-Each extension lives in its own directory in this repo and must contain an _entry.json_ file following the format described in the schema file _entry-schema.json_. 
+Each extension lives in its own directory in this repo and must contain an _entry.json_ file following the format described in the schema file _entry-schema.json_.
 
 _entry.json_ must validate against the schema before being included in the registry.
 
@@ -10,7 +10,7 @@ _entry.json_ must validate against the schema before being included in the regis
 
 A list of entries for this extension. Multiple versions of the same extensions can be registered, the first being the default version.
 
-### required fields for each entry.
+### Required fields for each entry
 
 * active: a boolean declaring the extension active or inactive status.
 * category: part of the docs the extensions appears in.
@@ -20,14 +20,12 @@ A list of entries for this extension. Multiple versions of the same extensions c
 * name: name of the extension, an object mapping language codes to the name of the extension in the language
 * url: URL of the extension repository, pointing at an _extension.json_ file.
 
-### optional fields
+### Optional fields
 
 * dependencies: a list of other extensions that this extension depends on.
 * compatibility: a list of versions of OCDS schema versions this extension is valid against.
 * version: an optional semver of the extension.
-* slug: indicates where the extension documentation lives in the standard docs, i.e. a "location" slug means the docs are at
-_h&#8203;ttp://standard.open-contracting.org/*version*/*lang*/extensions/location_ ── applies to core extensions only.
-
+* slug: indicates where the extension documentation lives in the standard docs, i.e. a "location" slug means the docs are at `http://standard.open-contracting.org/*version*/*lang*/extensions/location` ── applies to core extensions only.
 
 Here is an example entry.json
 
@@ -54,7 +52,7 @@ Here is an example entry.json
 }]
 ```
 
-## Compile 
+## Compile
 
 In order for the extension to be picked up by the docs the following command needs to be run after a new extension or a change has been made:
 
@@ -66,11 +64,12 @@ The _compile.py_ script will generate two non version-controlled files, **_exten
 
 _compile.py_ requires [jsonschema](https://pypi.python.org/pypi/jsonschema). You can install jsonschema using pip, ideally within a virtual environment:
 
-```
+```shell
 pip install jsonschema
 ```
+
 If you prefer not to use a virtual environment, it is recommended to pass the option `--user` to pip so that the package installs for the current user only (avoiding having to use admin privileges and a global install in your system).
 
-```
+```shell
 pip install --user jsonschema
 ```
