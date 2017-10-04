@@ -17,7 +17,6 @@ deploy:
     all_branches: true
 install:
   - curl -s -S $BASEDIR/tests/install.sh | bash -
-  - pip install flake8 jsonschema
 script:
   - curl -s -S $BASEDIR/tests/script.sh | bash -
   - python compile.py
