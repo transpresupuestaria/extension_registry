@@ -8,7 +8,6 @@
     }, 
     "core": true, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_enquiry_extension/master/extension.json", 
-    "active": true, 
     "slug": "enquiries", 
     "description": {
         "en": "The enquiries extension can be used to record questions raised during a contracting process, and the answers provided."

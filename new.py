@@ -26,7 +26,6 @@ def main():
                 "description": {"en": ext['description']},
                 "url": args[1].replace("github.com", "raw.githubusercontent.com") + "/master/",
                 "documentation_url": args[1] + "/blob/master/README.md",
-                "active": True,
                 "core": False,
                 "category": "",
                 "slug": args[0]

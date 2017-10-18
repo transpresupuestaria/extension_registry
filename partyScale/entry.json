@@ -8,7 +8,6 @@
     }, 
     "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_partyDetails_scale_extension/master/extension.json", 
-    "active": true, 
     "slug": "partyScale", 
     "description": {
         "en": "For classifying organisations as micro, sme or large."

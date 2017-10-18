@@ -8,7 +8,6 @@
     }, 
     "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_signatories_extension/master/extension.json", 
-    "active": true, 
     "slug": "signatories", 
     "description": {
         "en": "Adds an array of organizationReferences to the contract section OCDS to support explicit declaration of the signatories for a contract."

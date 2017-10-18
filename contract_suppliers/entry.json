@@ -8,7 +8,6 @@
     }, 
     "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_contract_suppliers_extension/master/extension.json", 
-    "active": true, 
     "slug": "contract_suppliers", 
     "description": {
         "en": "To allow explicit declaration of suppliers within the contracts block. Used when a single award to multiple suppliers results in multiple contracts to a sub-set of those awarded suppliers."

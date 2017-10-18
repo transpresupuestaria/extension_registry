@@ -12,7 +12,6 @@ A list of entries for this extension. Multiple versions of the same extensions c
 
 ### Required fields for each entry
 
-* active: a boolean declaring the extension active or inactive status.
 * category: part of the docs the extensions appears in.
 * core: a boolean declaring the extension core (true) or community (false).
 * description: description of the extension, an object mapping language codes to the description of the extension in the language.
@@ -46,7 +45,6 @@ Here is an example entry.json
   },
   "category": "item",
   "core": false,
-  "active": true,
   "slug": "example",
   "dependencies": ["path/to/extension1/extension.json","path/to/extension2/extension.json" ]
 }]

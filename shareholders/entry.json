@@ -9,7 +9,6 @@
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds-shareholders-extension"
   },
-  "active": true,
   "core": false,
   "category": "ppp",
   "slug": "shareholders"

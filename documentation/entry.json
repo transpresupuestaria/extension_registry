@@ -9,7 +9,6 @@
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_documentation_extension/"
   },
-  "active": false,
   "core": false,
   "category": "ppp",
   "slug": "documentation_details"
