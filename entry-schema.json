@@ -8,7 +8,6 @@
     "type": "object",
     "additionalProperties": false,
     "required": [
-      "active",
       "category",
       "core",
       "description",
@@ -17,11 +16,6 @@
       "url"
     ],
     "properties": {
-      "active": {
-        "title": "Active",
-        "description": "Extension active/inactive status.",
-        "type": "boolean"
-      },
       "category": {
         "title": "Category",
         "description": "Part of the docs the extensions appears in.",

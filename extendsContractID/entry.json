@@ -8,7 +8,6 @@
     }, 
     "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_extendsContractID_extension/master/extension.json", 
-    "active": true, 
     "slug": "extendsContractID", 
     "description": {
         "en": "Under some procurement rules and processes, to extend the duration or value of a contract, or to make other substantial alterations, requires a new contract to be signed. This extension allows these relationships between two or more contracts in the same contracting process to be made explicit."

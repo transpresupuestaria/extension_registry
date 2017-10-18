@@ -9,7 +9,6 @@
   "documentationUrl": {
     "en": "http://ocds-for-ppps.readthedocs.io/"
   },
-  "active": true,
   "core": false,
   "category": "ppp",
   "slug": "ppp"

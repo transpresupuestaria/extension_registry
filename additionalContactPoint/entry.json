@@ -8,7 +8,6 @@
     }, 
     "core": false, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_additionalContactPoints_extension/master/extension.json", 
-    "active": true, 
     "slug": "additionalContactPoint", 
     "description": {
         "en": "For including extra contact points on each organization. Particularly useful when each contact point deals only in a particular language or group of languages."

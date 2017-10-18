@@ -8,7 +8,6 @@
     }, 
     "core": true, 
     "url": "https://raw.githubusercontent.com/open-contracting/ocds_process_title_extension/master/extension.json", 
-    "active": true, 
     "slug": "process_title", 
     "description": {
         "en": "For providing overall process titles and descriptions, often to give a free-text summary of the contracting process as a whole."

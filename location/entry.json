@@ -9,7 +9,6 @@
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_location_extension/blob/master/README.md"
   },
-  "active": true,
   "core": true,
   "category": "item",
   "slug": "location"

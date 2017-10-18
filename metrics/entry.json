@@ -9,7 +9,6 @@
   "documentationUrl": {
     "en": "https://github.com/open-contracting/ocds_metrics_extension"
   },
-  "active": true,
   "core": false,
   "category": "ppp",
   "slug": "metrics"
