@@ -2,10 +2,10 @@
 Validates all entry.json files and gathers them into extensions.js and extensions.json files.
 """
 
-import os
-import glob
 import datetime
+import glob
 import json
+import os
 
 from jsonschema import FormatChecker
 from jsonschema.validators import Draft4Validator as validator
