@@ -7,6 +7,7 @@ import glob
 import datetime
 import json
 
+from jsonschema import FormatChecker
 from jsonschema.validators import Draft4Validator as validator
 
 current_path = os.path.dirname(os.path.realpath(__file__))
@@ -17,7 +18,7 @@ gathered_json = {
 }
 
 with open('entry-schema.json') as fp:
-    entry_validator = validator(json.load(fp))
+    entry_validator = validator(json.load(fp), format_checker=FormatChecker())
 
 exit_status = 0
 
