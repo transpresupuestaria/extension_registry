@@ -12,21 +12,21 @@ A list of entries for this extension. Multiple versions of the same extensions c
 
 ### Required fields for each entry
 
-* category: part of the docs the extensions appears in.
-* core: a boolean declaring the extension core (true) or community (false).
-* description: description of the extension, an object mapping language codes to the description of the extension in the language.
-* documentationUrl: documentation URL for the extension, an object mapping language codes to an URL with documentation in the language.
-* name: name of the extension, an object mapping language codes to the name of the extension in the language
-* url: URL of the extension repository, pointing at an _extension.json_ file.
+* `category`: part of the docs the extensions appears in.
+* `core`: a boolean declaring the extension core (true) or community (false).
+* `description`: description of the extension, an object mapping language codes to the description of the extension in the language.
+* `documentationUrl`: documentation URL for the extension, an object mapping language codes to an URL with documentation in the language.
+* `name`: name of the extension, an object mapping language codes to the name of the extension in the language
+* `url`: URL of the extension repository, pointing at an _extension.json_ file.
 
 ### Optional fields
 
-* dependencies: a list of other extensions that this extension depends on.
-* compatibility: a list of versions of OCDS schema versions this extension is valid against.
-* version: an optional semver of the extension.
-* slug: indicates where the extension documentation lives in the standard docs, i.e. a "location" slug means the docs are at `http://standard.open-contracting.org/*version*/*lang*/extensions/location` ── applies to core extensions only.
+* `dependencies`: a list of other extensions that this extension depends on.
+* `compatibility`: a list of versions of OCDS schema versions this extension is valid against.
+* `version`: an optional semver of the extension.
+* `slug`: indicates where the extension documentation lives in the standard docs, i.e. a "location" slug means the docs are at `http://standard.open-contracting.org/*version*/*lang*/extensions/location` ── applies to core extensions only.
 
-Here is an example entry.json
+Here is an example `entry.json`:
 
 ```json
 [{
@@ -50,13 +50,14 @@ Here is an example entry.json
 }]
 ```
 
-## Compile
+## Maintenance
 
-In order for the extension to be picked up by the docs the following command needs to be run after a new extension or a change has been made:
+Install dependencies:
 
-`python compile.py`
+    pip install -r requirements.txt
+
+Compile entries:
+
+    python compile.py
 
 The _compile.py_ script will generate two non-version-controlled files, **_extensions.json_** and **_extensions.js_**, which are the reference files that OCDS needs to build the documentation on extensions.
-
-## Dependencies
-
