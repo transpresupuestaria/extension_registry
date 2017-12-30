@@ -56,18 +56,7 @@ In order for the extension to be picked up by the docs the following command nee
 
 `python compile.py`
 
-The _compile.py_ script will generate two non version-controlled files, **_extensions.json_** and **_extensions.js_**, which are the reference files that OCDS needs to build the documentation on extensions.
+The _compile.py_ script will generate two non-version-controlled files, **_extensions.json_** and **_extensions.js_**, which are the reference files that OCDS needs to build the documentation on extensions.
 
 ## Dependencies
 
-_compile.py_ requires [jsonschema](https://pypi.python.org/pypi/jsonschema). You can install jsonschema using pip, ideally within a virtual environment:
-
-```shell
-pip install jsonschema
-```
-
-If you prefer not to use a virtual environment, it is recommended to pass the option `--user` to pip so that the package installs for the current user only (avoiding having to use admin privileges and a global install in your system).
-
-```shell
-pip install --user jsonschema
-```
