@@ -1,0 +1,14 @@
+[{
+  "name": {
+    "en" : "Related_Projects"
+  },
+  "description": {
+    "en": "Agregate to the community extensions in order to directly link the contracts with their respective projects (when applies)"
+  },
+  "url": "https://github.com/transpresupuestaria/ocds_related_projects_extension/blob/master/extension.json",
+  "documentationUrl": {
+    "en": "https://github.com/transpresupuestaria/ocds_related_projects_extension/blob/master/README.md"
+  },
+  "core": false,
+  "category": "planning"
+}]
